@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -16,7 +17,8 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "com.portal.backend")
-@ComponentScan({ "com.portal.backend.service", "com.portal.backend.repository" })
+@EnableMongoRepositories(basePackages = "com.portal.backend")
+@ComponentScan({ "com.portal.backend" })
 public class PortalBackendApplication {
 
 	public static void main(String[] args) throws Exception {
