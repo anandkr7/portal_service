@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.portal.backend.domain.Address;
-import com.portal.backend.starter.AddressRepository;
+import com.portal.backend.repository.AddressRepository;
 
 @Service
 public class AddressServiceImpl implements AddressService {

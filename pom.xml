@@ -7,7 +7,6 @@
 	<packaging>pom</packaging>
 	<name>Unipaynext Portal</name>
 	<description>Unipaynext Portal</description>
-	<url>http://</url>
 	<version>1.0</version>
 
 	<parent>

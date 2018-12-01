@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.portal.backend.domain.User;
-import com.portal.backend.starter.UserRepository;
+import com.portal.backend.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {

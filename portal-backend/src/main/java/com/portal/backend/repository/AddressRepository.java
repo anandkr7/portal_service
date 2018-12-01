@@ -1,4 +1,4 @@
-package com.portal.backend.starter;
+package com.portal.backend.repository;
 
 import java.util.List;
 
